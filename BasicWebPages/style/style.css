@@ -168,3 +168,98 @@ p{
 h5{
     padding-left: 50px;
 }
+
+#navbar2 {
+
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+  
+
+}
+
+#navbar2 img {
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 80px;
+  padding-left: 10px;
+}
+
+#navbar2div1 {
+    display: flex;
+    margin-top: 20px;
+    font-weight: bold;
+    /* border: 1px solid red; */
+    margin: 20px;
+    padding: 10px;
+    width: 35%;
+    justify-content: space-between;
+}
+
+#navbar2div1 > input {
+    
+    border: 1px solid;
+    /* margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: 10px; */
+    height: 3vh;
+    margin-top: 2vh;
+    border: white;
+}
+
+#navbar2div2 {
+ display: flex;
+ margin-left: 20px;
+ width: 15%;
+ height: 10vh;
+ background-color: #c40c2f;
+ color: white;
+ margin-top: 15px;
+ justify-content: center;
+ align-items: center;
+ border-radius: 70px;
+ 
+
+ /* justify-content: flex-start; */
+ /* justify-content: center; */
+ /* line-height: normal; */
+
+
+}
+
+#search {
+display: flex;
+height: 5vh;
+margin-top: 30px;
+border-bottom: 1px solid black;
+padding-left: 10px;
+width: 10%;
+}
+
+#search > input {
+margin-top: 15px;
+border: 1px solid white;
+width: 75%;
+
+}
+
+/* #navbar2div2img {
+
+background-color: green;
+} */
+
+
+
+#navbar2div2text :nth-child(1) {
+    margin-top: 30px;
+}
+
+#navbar2div2text :nth-child(2) {
+    margin-top: -15px;
+}
+
+#navbar2div2img {
+    display: flex;
+    align-items: center;
+}
