@@ -1,7 +1,170 @@
-h1{
-    background: #0000001c;
-    color: rgb(17, 6, 74);
+
+marquee{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 1440px;
+    padding-top: 8px;
+    /* position: fixed;
+    top: 0px; */
+}
+#nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 19px;
+    font-family: sans-serif;
+    margin-top: -5px;
+    height: 55px;
+    width: 1440px;
+    background-color: rgb(37,37,37);
+    color: white;
+}
+.nav-div{
+    padding-right: 10px;
+}
+.nav-div>div{
+    padding: 6px;
+    margin: auto;
+}
+.ab-img{
+    height: 40px;
+}
+#nav1>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* more brands dropdown */
+.dropbtn {
+    background-color: rgb(37,37,37);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn::after{
+    content: '▼';
+}
+
+.dropdown-content {
+    display:none;
+    background-color: white;
+    min-width: 200px;
+    position: absolute;
+    top: 50px;
+}
+.dropdown-content>div {
+    height: 200px;
+    width: 1440px;
+    display: grid;
+   grid-template-columns: repeat(5, 160px);
+   grid-template-rows: repeat(2, 70px);
+   gap: 20px;
+}
+.dropdown-content>div>a>img{
+    height: 60px;
+    width: 150px;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: lightgray;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: rgb(77, 76, 76);
+}
+
+/* log in button dropdown */
+.dropdown2{
+
+    position: relative;
+    
+    background-color: rgb(37,37,37);
+    color: white;
+    padding: 2px;
+    font-size: 16px;
+    border: none;
+    
+}
+.DROPDOWNBTN2{
+    
+    background-color: rgb(37,37,37);
+    color: white;
+    border: none;
+    font-size: 19px;
+}
+.login-button{
+    height: 40px;
+    width: 200px;
+    color: black;
+    background-color: white;
+}
+.login-button>a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+.dropdown-content2{
+    display: none;
+    position: absolute;
+    top: 47px;
+    right: 0px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    background-color: white;
+    min-width: 300px;
+    height: 260px;
+    
+}
+.dropdown-content2>div>div:first-child {
+    background-color: rgb(12,35,64);
+    height: 130px;
+    width: 100%;
+   margin-top: -15px;
+    font-size: 13px;
+    text-align: center;
+
 }
 p{
-    background-color: #7caae6;
+    padding-top: 15px;
+}
+.logo>div{
+    display: flex;
+    color: black;
+    font-size: 14px;
+    padding-left: 15px;
+}
+.logo>div>div{
+    padding: 15px;
+    font-family: sans-serif;
+}
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+h5{
+    padding-left: 50px;
 }
